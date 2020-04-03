@@ -23,6 +23,11 @@ namespace SistemaVentas
             nit = Console.ReadLine();
 
             sub1 = 0;
+            
+            for(int x=0; x<10; x++)
+            {
+            
+            }
 
             Console.ReadKey();
         }
