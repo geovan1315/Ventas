@@ -1,4 +1,4 @@
 # Ventas
 aplicacion de ventas
 
-esta aplicacion esta creada para un sistema de vetas......
+esta aplicacion de escritorio esta diseñada para un sistema de ventas en un supermercado.
