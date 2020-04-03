@@ -24,10 +24,23 @@ namespace SistemaVentas
 
             sub1 = 0;
             
-            for(int x=0; x<10; x++)
+            for(int x=0; x<3; x++)
             {
-            
+                Console.Write("ingrese el nombre del producto: ");
+                pro1 = Console.ReadLine();
+
+                Console.Write("ingrese el precio del producto: ");
+                linea = Console.ReadLine();
+                precio1 = double.Parse(linea);
+
+                Console.Write("ingrese el cantidad del producto: ");
+                linea = Console.ReadLine();
+                cant1 = int.Parse(linea);
+
+                sub1 = sub1 + (precio1*cant1);
             }
+
+            Console.Write("el total de la compra es: "+sub1);
 
             Console.ReadKey();
         }
